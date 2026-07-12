@@ -1,0 +1,26 @@
+{
+  "name": "linkedin-post-mcp",
+  "version": "1.0.0",
+  "description": "Standalone LinkedIn Post Ingestion and MCP Persona Generation Server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "stdio": "node server.js --stdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0",
+    "uuid": "^11.0.3",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
